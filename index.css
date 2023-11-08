@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.map{
+  cursor: grab;
+}
+.subselected {
+  text-decoration: underline;
+  text-decoration-color: cyan; /* Cambia "red" al color que desees */
+}
+.element-con-scroll {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* Estilos para ocultar la barra de desplazamiento horizontal */
+.element-con-scroll::-webkit-scrollbar {
+  width: 0.2em; /* Ajusta el ancho según tus preferencias */
+}
+
+.element-con-scroll::-webkit-scrollbar-track {
+  background: transparent; /* Puedes cambiarlo al color de fondo de tu elección */
+}
+
+.element-con-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Puedes cambiarlo al color de fondo de tu elección */
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.mycursor {
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.2s;
+  z-index: 10000;
+  pointer-events: none;
+  transition: height .1s;
+  transition: filter 0.5s ease;
+}
