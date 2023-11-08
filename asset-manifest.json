@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rutas-gateras/static/css/main.9ed5e16f.css",
+    "main.js": "/rutas-gateras/static/js/main.4bb0abd4.js",
+    "static/js/787.8113e259.chunk.js": "/rutas-gateras/static/js/787.8113e259.chunk.js",
+    "static/media/mouse.png": "/rutas-gateras/static/media/mouse.3542a60897dd1bf8ae68.png",
+    "static/media/logoRG.png": "/rutas-gateras/static/media/logoRG.2c6f7714732d8ae45ee7.png",
+    "index.html": "/rutas-gateras/index.html",
+    "main.9ed5e16f.css.map": "/rutas-gateras/static/css/main.9ed5e16f.css.map",
+    "main.4bb0abd4.js.map": "/rutas-gateras/static/js/main.4bb0abd4.js.map",
+    "787.8113e259.chunk.js.map": "/rutas-gateras/static/js/787.8113e259.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ed5e16f.css",
+    "static/js/main.4bb0abd4.js"
+  ]
+}
